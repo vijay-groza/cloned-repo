@@ -2,12 +2,40 @@ package javaProblems;
 
 public class DummyProjectForGitHub {
 
-	public static void main(String[] args) {
-		System.out.println("dummy project");
-		System.out.println("this change is made in git hub edit section and it is tested whether it will be visible in eclipse");
+	
+
+	public static void main (String[]args){
+	int num=1234;
+	int rem=0;
 		
-		System.out.println("i think the second print statement is postive and it is checked from the eclipse");
-
+		for (int i=num,i>=0,i--){
+			rem=rem*0+num%10;
+			num=num/10;
+			
+			System.out.print(rem)
+		}
+	
+	
+	
 	}
-
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
