@@ -1,6 +1,6 @@
 package javaProblems;
 
-public class DummyProjectForGitHub {
+public class Dummy{
 
 	
 
@@ -8,17 +8,15 @@ public class DummyProjectForGitHub {
 	int num=1234;
 	int rem=0;
 		
-		for (int i=num,i>=0,i--){
-			rem=rem*0+num%10;
+		while (num!=0){
+			rem=rem*10+num%10;
 			num=num/10;
 			
-			System.out.print(rem)
-		}
-	
-	
-	
+			
+		}System.out.print(rem);
 	}
 	
+}	
 	
 	
 	
@@ -37,5 +35,4 @@ public class DummyProjectForGitHub {
 	
 	
 	
-	
-}
+
